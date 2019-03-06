@@ -1,4 +1,4 @@
-# vk-php-sdk
+# vk-php-sdk 1
 
 PHP library for VK API interaction, includes OAuth 2.0 authorization and API methods. Full VK API features documentation can be found [here](http://vk.com/dev).
 
