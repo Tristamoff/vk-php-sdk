@@ -81,6 +81,7 @@ class VKApiRequest {
 
         try {
             $response = $this->http_client->post($url, $params);
+            return $this->parseResponse($response);
         } catch (TransportRequestException $e) {
             throw new VKClientException($e);
         }
